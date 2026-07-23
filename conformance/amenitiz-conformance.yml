@@ -1,0 +1,35 @@
+generated: '2026-07-17'
+method: searched
+source: https://amenitiz.com/llms.txt
+docs: https://amenitiz.com/en/product/payments
+notes: >-
+  Compliance posture published by Amenitiz for its AmenitizPay payment product and
+  its regulatory e-invoicing / fiscal certifications across its four core European
+  markets. Captured from the provider's own published llms.txt and payments product
+  page. No API-level standards (OpenAPI is Enterprise-gated and not public), so the
+  cross-cutting-standards assertions below are limited to what the provider states.
+standards:
+  - id: pci-dss
+    conforms: true
+    evidence: "AmenitizPay is PCI-DSS compliant (published on payments product page / llms.txt)"
+  - id: psd2
+    conforms: true
+    evidence: "AmenitizPay is PSD2 ready"
+  - id: sca-3ds
+    conforms: true
+    evidence: "AmenitizPay supports SCA and 3D Secure"
+  - id: gdpr
+    conforms: true
+    evidence: "EU-based (Barcelona) processor operating under EU data protection regime"
+  - id: nf525
+    conforms: true
+    evidence: "NF525 certified fiscal/billing compliance for France"
+  - id: verifactu
+    conforms: true
+    evidence: "VeriFactu certified electronic invoicing compliance for Spain"
+  - id: fatturapa-sdi
+    conforms: true
+    evidence: "FatturaPA & SDI certified electronic invoicing for Italy"
+  - id: sef
+    conforms: true
+    evidence: "SEF compliance for accommodation providers in Portugal"

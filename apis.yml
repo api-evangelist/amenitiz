@@ -1,7 +1,17 @@
 aid: amenitiz
 name: Amenitiz
-description: Amenitiz is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Amenitiz is an all-in-one hotel management platform built exclusively for
+  independent hotels and B&Bs in Europe. Founded in 2017 and headquartered in
+  Barcelona, Spain, it is trusted by 15,000+ properties across Spain, France,
+  Italy, and Portugal. The platform combines a property management system (PMS),
+  a commission-free direct booking engine, a channel manager connecting to 150+
+  OTAs (Booking.com Premier Plus Connectivity Partner), a hotel website builder,
+  dynamic pricing (PriceAdvisor), and native payment processing (AmenitizPay) in
+  a single per-room monthly subscription. Amenitiz exposes a REST API for
+  Enterprise-tier customers, documented on a Stoplight developer portal at
+  developers.amenitiz.com; access is requested through the in-product dashboard.
+  Amenitiz is a Point Nine portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/amenitiz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.amenitiz.com/wp-content/uploads/2022/09/WORDMARK-AMENITIZ-BLUE-1.svg
 tags:
 - Company
+- Hospitality
+- Hotel Management
+- Property Management
+- PMS
+- Booking Engine
+- Channel Manager
+- Payments
+- Travel
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,39 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.amenitiz.io
+  url: https://amenitiz.com
+- type: DeveloperPortal
+  url: https://developers.amenitiz.com
+- type: Documentation
+  url: https://developers.amenitiz.com
+- type: Pricing
+  url: https://amenitiz.com/en/pricing
+- type: Blog
+  url: https://amenitiz.com/en/blog
+- type: Support
+  url: https://support.amenitiz.com
+- type: SignUp
+  url: https://amenitiz.com/en/demo
+- type: TermsOfService
+  url: https://amenitiz.com/en/legal/terms-conditions
+- type: PrivacyPolicy
+  url: https://amenitiz.com/en/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/amenitiz
+- type: StatusPage
+  url: https://status.amenitiz.com/
+- type: Lifecycle
+  url: lifecycle/amenitiz-lifecycle.yml
+- type: Conformance
+  url: conformance/amenitiz-conformance.yml
+- type: Compliance
+  url: conformance/amenitiz-conformance.yml
+- type: DomainSecurity
+  url: security/amenitiz-domain-security.yml
+- type: LLMsTxt
+  url: llms/amenitiz-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

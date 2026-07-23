@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://status.amenitiz.com/
+status_page: https://status.amenitiz.com/
+notes: >-
+  Amenitiz operates a public Atlassian Statuspage (status.amenitiz.com) covering
+  platform availability and incident history. No public versioning or deprecation
+  policy is published — the Amenitiz API is Enterprise-gated (access requested via
+  the in-product dashboard) and its reference is hosted on a Stoplight portal at
+  developers.amenitiz.com rather than as a public spec.
+versioning:
+  scheme: unknown
+  docs: https://developers.amenitiz.com/
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
